@@ -1,0 +1,6 @@
+# Everything on this site may be crawled, except the files of unlisted talks under /talks/.
+# Talk pages stay readable so crawlers can see their own "noindex"; PDFs, videos and images are not crawled.
+User-agent: *
+Allow: /talks/*/$
+Allow: /talks/*/index.html$
+Disallow: /talks/
